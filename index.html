@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/styles.css" />
+
+    <title>Responsive Sidebar</title>
+  </head>
+  <body>
+    <nav class="nav" id="nav">
+      <div class="nav-menu nav-container" id="nav-menu">
+        <div class="nav-shape"></div>
+
+        <div class="nav-close" id="nav-close">
+          <i class="bx bx-x"></i>
+        </div>
+
+        <div class="nav-data">
+          <div class="nav-mask">
+            <img
+              src="https://i.postimg.cc/PqfBmCCM/protfolio_img.jpg"
+              alt=""
+              class="nav-img"
+            />
+          </div>
+
+          <span class="nav-greeting">Hi</span>
+          <h1 class="nav-name">John Doe</h1>
+        </div>
+
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#home" class="nav-link active-link">
+              <i class="bx bx-home"></i> Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">
+              <i class="bx bx-user"></i> About
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#portfolio" class="nav-link">
+              <i class="bx bx-briefcase-alt-2"></i> Portfolio
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link">
+              <i class="bx bx-bookmark"></i> Skills
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">
+              <i class="bx bx-message-square-detail"></i> Contact
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main class="main" id="main">
+      <header class="header" id="header">
+        <nav class="header-nav container">
+          <a href="#" class="header-logo"> John </a>
+
+          <!-- Toggle button -->
+          <div class="header-toggle" id="header-toggle">
+            <i class="bx bx-grid-alt"></i>
+          </div>
+        </nav>
+      </header>
+
+      <section class="section section-height container" id="home">
+        <h1>HOME</h1>
+      </section>
+
+      <section class="section section-height container" id="about">
+        <h1>ABOUT</h1>
+      </section>
+
+      <section class="section section-height container" id="portfolio">
+        <h1>PORTFOLIO</h1>
+      </section>
+
+      <section class="section section-height container" id="skills">
+        <h1>SKILLS</h1>
+      </section>
+
+      <section class="section section-height container" id="contact">
+        <h1>CONTACT</h1>
+      </section>
+    </main>
+
+    <script src="/main.js"></script>
+  </body>
+</html>
